@@ -8,14 +8,21 @@ public class PrimeiroPrograma {
         Gato gato = new Gato();
         System.out.println(gato);
 
-
         livro livro1 = new livro("O problema dos 3 corpos", 300);
+        System.out.println(livro1);
 
         /*int a = 5;
          * int b = 3;
          * System.out.println("Hello Word!" + (a+b));*/
 
 
+    }
+
+    private static class livro {
+        public livro() {}
+
+        public livro(String nome, int numPaginas) {
+        }
     }
 }
 
